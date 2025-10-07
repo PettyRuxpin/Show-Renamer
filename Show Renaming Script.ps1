@@ -7,7 +7,7 @@ $dryRun = $true
 $showName = "One Piece"
 
 # Folder containing your files
-$folderPath = "D:\TempMediaDownloads\OnePiece"
+$folderPath = "C:\MediaFiles\OnePiece"
 
 # Regex pattern to extract episode number (customize per show)
 # Example: "[Group] Show Name - 123 [720p]..." → captures 123
@@ -78,4 +78,5 @@ DEST:   $($item.NewName)
 
     Write-Host $logEntry
     Add-Content -Path $logFile -Value $logEntry
+
 }
