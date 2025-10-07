@@ -13,6 +13,8 @@ A customizable PowerShell script to help bulk rename shows.
 
 # Show Renamer GUI
 
+A rough GUI if you don't want to use the script.
+
 🧠 How to Use It
 - Paste your episode folder path or use Browse
 - Enter the show name (e.g., Naruto)
@@ -20,3 +22,6 @@ A customizable PowerShell script to help bulk rename shows.
 - Paste season mapping as PowerShell code
 - Toggle dry run or live rename
 - Click Run Rename and watch the log update
+
+DISCLAIMER:
+This code has been tested to work in my environment, but can't be guaranteed to work in yours. Use at your own risk.
